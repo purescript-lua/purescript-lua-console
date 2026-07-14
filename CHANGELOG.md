@@ -9,6 +9,18 @@ fork entries are assembled from fragments in `changelog.d/` with
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-v6.1.2'></a>
+## v6.1.2 - 2026-07-14
+
+### Added
+
+- `Effect.Console`: `group`, `groupCollapsed`, `groupEnd`, and `grouped`, plus
+  their `MonadEffect` counterparts in `Effect.Class.Console` — upstream
+  purescript-console v6.1.0 parity (#268). The Lua FFI keeps an indentation
+  level: a group prints its label and indents subsequent console output by
+  two spaces until the matching `groupEnd`; `groupCollapsed` behaves like
+  `group`, since a terminal cannot collapse anything.
+
 ## v6.1.1 - 2026-06-15
 
 ### Fixed
