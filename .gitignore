@@ -5,3 +5,4 @@
 !/.lua-format
 !/.githooks/
 /output/
+/dist/
